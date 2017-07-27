@@ -144,8 +144,13 @@ nav span{
 	height: auto;
 }
 
+.location{
+	
+}
+
 .locations-content{
 	display: flex;
+	padding-top: 20px;
 	align-content: center;
 	align-items: center;
 	justify-content: center;
@@ -153,7 +158,7 @@ nav span{
 }
 
 .locations-content h2{
-	margin-top: 10px;
+	max-height: 35px;
 }
 
 .locations-content .locations-box h3{
