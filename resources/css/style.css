@@ -72,22 +72,18 @@ nav span{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 	width: 1200px;
 	
 }
 .top-content{
 	justify-content: center;
-	display: inline-flex;
-	align-content: center;
-	flex-wrap: wrap;
 	height: 700px;
-	padding-top: 69px;
+	padding-top: 70px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-image: url(../images/img-mission-background.jpg);
 	flex-direction: column;
-	text-align: center;
 }
 .top-content h2, h4{
 	display: inline-flex;
@@ -108,23 +104,30 @@ nav span{
 	display: block;
 	height: 700px;
 	width: 1000px;
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 70px;
+}
+
+.middle-container h2{
+	margin-bottom: 22px;
+	
 }
 .middle-content {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 0;
+	margin: 0 auto;
+	margin-top: 5px;
+	
 }
 .steep{
-	font-size: 24px;
+	display: block;
+	font-size: 23px;
 	font-weight: bold;
-	margin-top: 203px;
+	margin-bottom: 10px;
 }
 
 .middle-content .image-content{
-	padding: 5px;
 	display: block;
 }
 
@@ -138,33 +141,51 @@ nav span{
 	padding: 5px;
 	font-weight: bold;
 	text-align: center;
+	height: auto;
 }
 
 .locations-content{
-	display: inline;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.locations-content h2{
+	margin-top: 10px;
+}
+
+.locations-content .locations-box h3{
+    text-align: center;
+	margin-top: 100px;
+}
+
+.locations-content .locations-box h2, h3{
+	display: inline-block;
+	height: 200px;
+	width: 300px;
+	margin: auto 0;
+}
+
+.locations-content .locations-box{
+	display: block;
 	margin: 0 auto;
 	justify-content: center;
 	background-image: url(../images/img-locations-background.jpg);
 	background-repeat: no-repeat;
     height: 500px;
 	background-position: center;
-}
-
-.locations-content h2, h3{
-	height: 200px;
-	width: 300px;
-}
-
-.locations-content .locations-box{
 	margin-top: 15px;
-	display: flex;
-	width: 980px;
+	width: 1200px;
 }
+
 .locations-content .locations-box .location{
 	flex-direction: column;
 	background-color: black;
-	height: 200px;
-	
+	height: 250px;
+	width: 300px;
+	padding-right: 40px;
 }
 .footer{
 	justify-content: center;
