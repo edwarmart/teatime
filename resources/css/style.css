@@ -10,9 +10,7 @@ body {
     text-align: center;
     margin: 0;
 }
-.div{
-	display: block;
-}
+
 header{
     align-items: center;
     width: 100%;
@@ -36,9 +34,6 @@ header img{
 h2, h3, h4{
     margin: 0 auto;
 	padding: 10px;
-}
-h3{
-	display: block;
 }
 
 a {
@@ -95,31 +90,18 @@ nav span{
 }
 
 .middle-content {
-	display: flex;
-    flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-    margin-top: 5px;    
-	margin-bottom: 10px;
+  align-items: center;
+  margin: 5px 10px;
 }
 
-.middle-content.image-content{
-	display: flex;
-	align-content: center;
-	justify-content: center;
-    display: block;
-    padding: 10px;
-	margin-right: 15px;
-	width: 300px;
-}
 
-.middle-content .image-content img{
+.image-content img{
 	padding-right: 10px;
     height: 200px;
     margin: 10px auto;	;
     display: block;
 }
-.middle-content .image-content h3{
+.image-content h3{
     display: block;
     padding: 5px;
     font-weight: bold;
